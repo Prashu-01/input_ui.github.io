@@ -20,16 +20,17 @@
                 <div class="head"><h1>Login</h1></div>
             </div>
             <div class="value" id="name">UserName</div>
-            <div class="element"><input type="text"></div><br>
+            <input type="text" class="element" id="u_name"><br>
             <div class="value" id="pass">Password</div>
-            <div class="element"><input type="password"></div>
+            <input type="password" class="element" id="u_pass">
             <div class="agree">
                 <div class="ag">Accept Agreement</div>
                 <input type="checkbox" class="check">
             </div>
-            <button id="btn">Login</button>
+            <button id="btn" onclick="check()">Login</button>
         </div>
     </div>
+    <script src="js/verification.js"></script>
 </body>
 
 </html>
