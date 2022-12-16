@@ -6,6 +6,7 @@ function check() {
         if (uname == 'Prashu' && upass == 'vip') {
             console.log("User_Verfied");
             alert('verfied');
+            document.cookie="User=CESflag{jsgbvjsfkagvkj}";
             
         }
         else {
@@ -13,6 +14,6 @@ function check() {
             document.getElementById('u_name').innerHTML = '';
             document.getElementById('u_pass').innerHTML = '';
         }
-        document.cookie="User=CESflag{jsgbvjsfkagvkj}";
+        
 
 }
